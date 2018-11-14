@@ -1,2 +1,3 @@
-echo "alias $1='$2'" >> "$HOME/.bash_aliases"
-source $HOME/.bash_aliases
+echo "alias $1='$2'" >> $HOME/.bash_aliases
+. $HOME/.bash_aliases
+. $HOME/.zshrc
